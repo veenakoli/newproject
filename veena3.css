@@ -1,0 +1,120 @@
+//CSS Stylesheet :
+*{
+margin: 0;
+padding: 0;
+}
+
+header{
+width: 100%;
+height: 100vh;
+background-image: url('file:///C:/Users/veena/Downloads/images%20(1).jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+nav .menu {
+width: 50%;
+height: 15vh;
+color:linen;
+display: flex;
+justify-content: space-between;
+align-items: right;
+padding: 6px 10px;
+}
+nav .logo{
+display: flex;
+justify-content: space-between;
+padding: 6px 20px;
+}
+nav .menu a{
+width: 25%;
+text-decoration: none;
+color: white;
+font-weight: bold;
+font-size: 150%;
+}
+nav menu a:hover{
+background-color: orange;
+}
+main{
+width: 100%;
+height: 75vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+section h1{
+font-family: Lucida Calligraphy;
+text-decoration: wavy;
+color:black;
+font-weight: 100;
+font-size: 55PX;
+
+}
+section h3{
+font-size: 40px;
+
+font-weight: bold;
+letter-spacing: 3px;
+color: brown;
+text-decoration-style: dotted;
+}
+section P{
+font-size: 30PX;
+color: wheat;
+}
+section .btn{
+padding: 10px 10px;
+background-color: palegreen;
+color: black;
+font-size: 40px;
+background-size: 10px;
+background: transparent;
+}
+.m2{
+box-align: center;
+text-align: center;
+}
+.menu1{
+max-width: 1300px;
+margin: auto;
+overflow: auto;
+background-color: pink;
+width: 100%;
+}
+.gallery{
+margin: 5px;
+border:1px solid #ccc;
+float: left;
+width: 200px;
+box-sizing: 30%;
+align-items: center;
+}
+.gallery img{
+width: 100%;
+height: 250px;
+}
+.desc{
+padding: 15px;
+text-align: center;
+}
+.m3{
+text-align: center;
+
+background-color: burlywood;
+text-decoration: underline;
+}
+.m3 p{
+font-style: italic;
+text-decoration-color: black;
+}
+.m4{
+text-align: center;
+text-decoration: underline;
+background-color: white;
+font-family: Lucida Sans Unicode;
+}
+.container1{
+text-decoration: none;
+font-style: black;
+}
